@@ -1,0 +1,46 @@
+/* CLASSIC LEOPARD PS4 CONTROLLER OVERLAY */
+/* Tan, golden brown, dark brown, and black */
+
+html,
+body {
+    background: transparent !important;
+}
+
+/* Leopard-print texture */
+.controller,
+.controller.ds4,
+.ds4 .controller,
+.controller.ps4 {
+    background-color: #c49a55 !important;
+    background-image:
+        radial-gradient(ellipse at 30% 40%, #17110b 0 5%, transparent 6%),
+        radial-gradient(ellipse at 65% 65%, #302015 0 7%, transparent 8%),
+        radial-gradient(ellipse at 50% 25%, #17110b 0 4%, transparent 5%),
+        radial-gradient(ellipse at 20% 75%, #79502b 0 8%, transparent 9%),
+        radial-gradient(ellipse at 80% 30%, #17110b 0 5%, transparent 6%),
+        radial-gradient(ellipse at 40% 80%, #e4c17e 0 7%, transparent 8%) !important;
+    background-size: 38px 34px, 43px 39px, 31px 37px, 48px 42px, 35px 40px, 45px 38px !important;
+    background-repeat: repeat !important;
+    border-radius: 30px;
+}
+
+/* Dark outlines for buttons */
+.ds4 .button,
+.ds4 .bumper,
+.ds4 .trigger,
+.ds4 .stick,
+.ds4 .face,
+.ds4 .dpad {
+    border-color: #302015 !important;
+}
+
+/* Face buttons */
+.ds4 .button {
+    color: #f4dfb5 !important;
+}
+
+/* Keep the overlay background transparent */
+body {
+    margin: 0 !important;
+    overflow: hidden !important;
+}
